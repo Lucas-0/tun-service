@@ -13,6 +13,8 @@ tunnel service over clash
 
 我推荐直接解压 CFW 的 7z 压缩包，从里面翻出 `clash-core-service.exe` 和 `service.exe`，对照本 repo，手动创建 `service.yml` 和 `service.wrapper.log`。把这四个文件放进 service 文件夹再放到 CDN 的对应位置。至于 `yml` 和 `log` 文件对于正常实现功能而言是不是必要的，笔者没有试过。
 
+**更新**：经过测试，`yml`是服务正常启动的必要条件，`log`不是。
+
 2. 注册服务
 
 以管理员权限运行如下命令。
